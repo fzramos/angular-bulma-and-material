@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-// @import "main-styles.scss"; // Custom Bulma files which we will create
-// @import "../node_modules/bulma/bulma.sass";
+@import "main-styles.scss"; // Custom Bulma files which we will create
+@import "../node_modules/bulma/bulma.sass";
 
 // html, body {
 //     background-color: rgb(27, 27, 27);
