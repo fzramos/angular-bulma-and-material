@@ -1,3 +1,7 @@
+<div class="top-bar">
+    <h1>Calculator</h1>
+</div>
+
 <div class="container mt-6 px-6">
     <p class = "is-size-4">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -6,3 +10,18 @@
         aperiam ab veniam assumenda voluptates repudiandae dicta!
     </p>
 </div>
+
+<!-- h2 class will toggle based on sum of items -->
+<div class="total-budget-section">
+    <h2 class="red">100</h2>
+</div>
+
+<section class="add-item-section">
+    <div class="add-item-container">
+        <!-- TODO add angular form here -->
+        <app-add-item-form></app-add-item-form>
+    </div>
+</section>
+
+<hr style="margin-top: 0px;">
+<app-budget-item-list></app-budget-item-list>
